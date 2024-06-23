@@ -1,0 +1,22 @@
+/* for tablet media queries */
+@media only screen and (max-width: 1000px) {
+  .join {
+    display: block;
+  }
+}
+
+/* for mobile media queries */
+
+@media only screen and (max-width: 900px) {
+  .desktop {
+    display: none;
+  }
+  .mobile {
+    display: flex;
+    gap: 10px;
+  }
+
+  .mobile img {
+    height: 30px;
+  }
+}

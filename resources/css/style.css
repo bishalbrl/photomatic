@@ -1,0 +1,93 @@
+/* Universal Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Roboto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* navigation parts */
+header {
+  background-color: #f9f6ee;
+  height: 85px;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  align-items: center;
+  height: 100%;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.navigation li a {
+  opacity: 0.6;
+  font-size: 1.2rem;
+}
+.navigation li a:hover {
+  opacity: 1;
+}
+
+.navigation img {
+  height: 1.5em;
+}
+
+.follow {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo {
+  font-family: "Roboto Mono";
+  font-size: 1.5rem;
+  letter-spacing: 1.2;
+}
+.join {
+  font-size: 1.2rem;
+  padding: 10px 16px;
+  background-color: #9dc20a;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  display: none;
+}
+
+.join:hover {
+  background-color: #88b108;
+}
+
+.mobile {
+  display: none;
+}
+
+/* cta section */
+
+main {
+  background-color: lightslategray;
+  height: 1500px;
+}
