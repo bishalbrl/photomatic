@@ -3,11 +3,14 @@
   .join {
     display: block;
   }
+  .cta {
+    display: none;
+  }
 }
 
 /* for mobile media queries */
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 800px) {
   .desktop {
     display: none;
   }
@@ -15,8 +18,17 @@
     display: flex;
     gap: 10px;
   }
+  header {
+    height: 48px;
+  }
 
   .mobile img {
     height: 30px;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .cta {
+    top: 100px;
   }
 }
