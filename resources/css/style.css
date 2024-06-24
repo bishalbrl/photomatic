@@ -214,3 +214,38 @@ cta2 h1 {
   line-height: 1.2;
   font-weight: light;
 }
+
+/* filter section */
+.filter {
+  background-color: dimgray;
+  padding: 64px 1%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 80px;
+}
+
+
+.filter .images {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.images img{
+  width: 100%;
+}
+
+.title h2{
+  font-size: 2rem;
+  font-weight: bold;
+
+}
+
+.title p {
+  font-size: 1rem;
+  line-height: 1.4;
+  font-weight: normal;
+}
