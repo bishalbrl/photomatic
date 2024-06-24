@@ -6,6 +6,9 @@
   .cta {
     display: none;
   }
+  .cta2 {
+    display: block;
+  }
 }
 
 /* for mobile media queries */
@@ -13,6 +16,12 @@
 @media only screen and (max-width: 800px) {
   .desktop {
     display: none;
+  }
+  main {
+    top: 48px;
+  }
+  .container{
+    top: 48px;
   }
   .mobile {
     display: flex;
@@ -24,6 +33,18 @@
 
   .mobile img {
     height: 30px;
+  }
+  .cta2 h2 {
+    font-size: 1.5rem;
+  }
+
+  .cta2 h1 {
+    font-size: 2.5rem;
+  }
+  .feature{
+    grid-template-columns: 1fr;
+    padding-left: 0;
+    padding-right: 0;
   }
 }
 
