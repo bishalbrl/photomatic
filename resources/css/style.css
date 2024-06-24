@@ -228,20 +228,18 @@ cta2 h1 {
   gap: 80px;
 }
 
-
 .filter .images {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.images img{
+.images img {
   width: 100%;
 }
 
-.title h2{
+.title h2 {
   font-size: 2rem;
   font-weight: bold;
-
 }
 
 .title p {
@@ -251,7 +249,7 @@ cta2 h1 {
 }
 
 /* testimonial section */
-.testimonial{
+.testimonial {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -259,8 +257,20 @@ cta2 h1 {
   gap: 30px;
 }
 
-blockquote{
+blockquote {
   font-size: 1.9rem;
   line-height: 1.4;
   font-style: italic;
+}
+
+/* footer */
+footer {
+  background-color: dimgray;
+  color: White;
+  height: 62px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
 }
