@@ -20,7 +20,7 @@
   main {
     top: 48px;
   }
-  .container{
+  .container {
     top: 48px;
   }
   .mobile {
@@ -41,17 +41,25 @@
   .cta2 h1 {
     font-size: 2.5rem;
   }
-  .feature{
+  .feature {
     grid-template-columns: 1fr;
     padding-left: 0;
     padding-right: 0;
   }
-  
-  .testimonial{
+
+  .testimonial {
     flex-direction: column;
     padding: 40px;
     justify-content: center;
     align-items: center;
+  }
+  .filter .images {
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+  }
+
+  .remove {
+    display: none;
   }
 }
 
