@@ -249,3 +249,18 @@ cta2 h1 {
   line-height: 1.4;
   font-weight: normal;
 }
+
+/* testimonial section */
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+  gap: 30px;
+}
+
+blockquote{
+  font-size: 1.9rem;
+  line-height: 1.4;
+  font-style: italic;
+}

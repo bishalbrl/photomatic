@@ -46,6 +46,13 @@
     padding-left: 0;
     padding-right: 0;
   }
+  
+  .testimonial{
+    flex-direction: column;
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+  }
 }
 
 @media only screen and (max-width: 1320px) {
